@@ -1,0 +1,102 @@
+2022-09-14 14:09:92 [32minfo[39m [32m| bin/www say : PORT : 3000[39m
+2022-09-14 14:09:92 [32minfo[39m [32m| bin/www say : "Listening"[39m
+2022-09-14 14:09:64 [31merror[39m [31mNot Found[39m
+2022-09-14 14:09:74 [31merror[39m [31mNot Found[39m
+2022-09-14 15:09:23 [32minfo[39m [32m| bin/www say : PORT : 3000[39m
+2022-09-14 15:09:24 [32minfo[39m [32m| bin/www say : "Listening"[39m
+2022-09-14 15:09:48 [31merror[39m [31mCannot find module 'html'[39m
+[31mRequire stack:[39m
+[31m- /Users/wonwoo/wonwoo-server/node_modules/express/lib/view.js[39m
+[31m- /Users/wonwoo/wonwoo-server/node_modules/express/lib/application.js[39m
+[31m- /Users/wonwoo/wonwoo-server/node_modules/express/lib/express.js[39m
+[31m- /Users/wonwoo/wonwoo-server/node_modules/express/index.js[39m
+[31m- /Users/wonwoo/wonwoo-server/app.js[39m
+[31m- /Users/wonwoo/wonwoo-server/bin/www[39m
+2022-09-14 15:09:55 [31merror[39m [31mCannot find module 'html'[39m
+[31mRequire stack:[39m
+[31m- /Users/wonwoo/wonwoo-server/node_modules/express/lib/view.js[39m
+[31m- /Users/wonwoo/wonwoo-server/node_modules/express/lib/application.js[39m
+[31m- /Users/wonwoo/wonwoo-server/node_modules/express/lib/express.js[39m
+[31m- /Users/wonwoo/wonwoo-server/node_modules/express/index.js[39m
+[31m- /Users/wonwoo/wonwoo-server/app.js[39m
+[31m- /Users/wonwoo/wonwoo-server/bin/www[39m
+2022-09-14 15:09:87 [32minfo[39m [32m| bin/www say : PORT : 3000[39m
+2022-09-14 15:09:88 [32minfo[39m [32m| bin/www say : "Listening"[39m
+2022-09-14 15:09:54 [31merror[39m [31mCannot find module 'html'[39m
+[31mRequire stack:[39m
+[31m- /Users/wonwoo/wonwoo-server/node_modules/express/lib/view.js[39m
+[31m- /Users/wonwoo/wonwoo-server/node_modules/express/lib/application.js[39m
+[31m- /Users/wonwoo/wonwoo-server/node_modules/express/lib/express.js[39m
+[31m- /Users/wonwoo/wonwoo-server/node_modules/express/index.js[39m
+[31m- /Users/wonwoo/wonwoo-server/app.js[39m
+[31m- /Users/wonwoo/wonwoo-server/bin/www[39m
+2022-09-14 15:09:47 [31merror[39m [31mCannot find module 'html'[39m
+[31mRequire stack:[39m
+[31m- /Users/wonwoo/wonwoo-server/node_modules/express/lib/view.js[39m
+[31m- /Users/wonwoo/wonwoo-server/node_modules/express/lib/application.js[39m
+[31m- /Users/wonwoo/wonwoo-server/node_modules/express/lib/express.js[39m
+[31m- /Users/wonwoo/wonwoo-server/node_modules/express/index.js[39m
+[31m- /Users/wonwoo/wonwoo-server/app.js[39m
+[31m- /Users/wonwoo/wonwoo-server/bin/www[39m
+2022-09-14 15:09:52 [31merror[39m [31mCannot find module 'html'[39m
+[31mRequire stack:[39m
+[31m- /Users/wonwoo/wonwoo-server/node_modules/express/lib/view.js[39m
+[31m- /Users/wonwoo/wonwoo-server/node_modules/express/lib/application.js[39m
+[31m- /Users/wonwoo/wonwoo-server/node_modules/express/lib/express.js[39m
+[31m- /Users/wonwoo/wonwoo-server/node_modules/express/index.js[39m
+[31m- /Users/wonwoo/wonwoo-server/app.js[39m
+[31m- /Users/wonwoo/wonwoo-server/bin/www[39m
+2022-09-14 15:09:74 [32minfo[39m [32m| bin/www say : PORT : 3000[39m
+2022-09-14 15:09:74 [32minfo[39m [32m| bin/www say : "Listening"[39m
+2022-09-14 15:09:58 [31merror[39m [31mCannot find module 'html'[39m
+[31mRequire stack:[39m
+[31m- /Users/wonwoo/wonwoo-server/node_modules/express/lib/view.js[39m
+[31m- /Users/wonwoo/wonwoo-server/node_modules/express/lib/application.js[39m
+[31m- /Users/wonwoo/wonwoo-server/node_modules/express/lib/express.js[39m
+[31m- /Users/wonwoo/wonwoo-server/node_modules/express/index.js[39m
+[31m- /Users/wonwoo/wonwoo-server/app.js[39m
+[31m- /Users/wonwoo/wonwoo-server/bin/www[39m
+2022-09-14 15:09:56 [31merror[39m [31mCannot find module 'html'[39m
+[31mRequire stack:[39m
+[31m- /Users/wonwoo/wonwoo-server/node_modules/express/lib/view.js[39m
+[31m- /Users/wonwoo/wonwoo-server/node_modules/express/lib/application.js[39m
+[31m- /Users/wonwoo/wonwoo-server/node_modules/express/lib/express.js[39m
+[31m- /Users/wonwoo/wonwoo-server/node_modules/express/index.js[39m
+[31m- /Users/wonwoo/wonwoo-server/app.js[39m
+[31m- /Users/wonwoo/wonwoo-server/bin/www[39m
+2022-09-14 15:09:75 [31merror[39m [31mCannot find module 'html'[39m
+[31mRequire stack:[39m
+[31m- /Users/wonwoo/wonwoo-server/node_modules/express/lib/view.js[39m
+[31m- /Users/wonwoo/wonwoo-server/node_modules/express/lib/application.js[39m
+[31m- /Users/wonwoo/wonwoo-server/node_modules/express/lib/express.js[39m
+[31m- /Users/wonwoo/wonwoo-server/node_modules/express/index.js[39m
+[31m- /Users/wonwoo/wonwoo-server/app.js[39m
+[31m- /Users/wonwoo/wonwoo-server/bin/www[39m
+2022-09-14 15:09:52 [32minfo[39m [32m| bin/www say : PORT : 3000[39m
+2022-09-14 15:09:53 [32minfo[39m [32m| bin/www say : "Listening"[39m
+2022-09-14 15:09:84 [31merror[39m [31mCannot find module 'html'[39m
+[31mRequire stack:[39m
+[31m- /Users/wonwoo/wonwoo-server/node_modules/express/lib/view.js[39m
+[31m- /Users/wonwoo/wonwoo-server/node_modules/express/lib/application.js[39m
+[31m- /Users/wonwoo/wonwoo-server/node_modules/express/lib/express.js[39m
+[31m- /Users/wonwoo/wonwoo-server/node_modules/express/index.js[39m
+[31m- /Users/wonwoo/wonwoo-server/app.js[39m
+[31m- /Users/wonwoo/wonwoo-server/bin/www[39m
+2022-09-14 15:09:20 [31merror[39m [31mCannot find module 'html'[39m
+[31mRequire stack:[39m
+[31m- /Users/wonwoo/wonwoo-server/node_modules/express/lib/view.js[39m
+[31m- /Users/wonwoo/wonwoo-server/node_modules/express/lib/application.js[39m
+[31m- /Users/wonwoo/wonwoo-server/node_modules/express/lib/express.js[39m
+[31m- /Users/wonwoo/wonwoo-server/node_modules/express/index.js[39m
+[31m- /Users/wonwoo/wonwoo-server/app.js[39m
+[31m- /Users/wonwoo/wonwoo-server/bin/www[39m
+2022-09-14 15:09:31 [32minfo[39m [32m| bin/www say : PORT : 3000[39m
+2022-09-14 15:09:31 [32minfo[39m [32m| bin/www say : "Listening"[39m
+2022-09-14 15:09:63 [32minfo[39m [32m| bin/www say : PORT : 3000[39m
+2022-09-14 15:09:64 [32minfo[39m [32m| bin/www say : "Listening"[39m
+2022-09-14 15:09:84 [32minfo[39m [32m| bin/www say : PORT : 3000[39m
+2022-09-14 15:09:84 [32minfo[39m [32m| bin/www say : "Listening"[39m
+2022-09-14 15:09:48 [32minfo[39m [32m| bin/www say : PORT : 3000[39m
+2022-09-14 15:09:48 [32minfo[39m [32m| bin/www say : "Listening"[39m
+2022-09-14 15:09:95 [32minfo[39m [32m| bin/www say : PORT : 3000[39m
+2022-09-14 15:09:95 [32minfo[39m [32m| bin/www say : "Listening"[39m
