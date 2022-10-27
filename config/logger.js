@@ -2,22 +2,8 @@ const winston = require('winston');
 const winstonDaily = require('winston-daily-rotate-file');
 const logDir = './logs';
 
-// const logFormat = function(){
-//     return `${info.timestamp} ${info.level}: ${info.message}`;
-// };
-
-const colors = {
-    error: 'red',
-    warn: 'yellow',
-    info: 'green',
-    http: 'magenta',
-    debug: 'blue',
-};
-winston.addColors(colors);
-
 const format = winston.format.combine(
     winston.format.timestamp({ format: 'YYYY-MM-DD HH:MM:SS' }),
-    winston.format.colorize({ all: true }),
     winston.format.printf(info => `${info.timestamp} ${info.level} ${info.message}`),
 );
 
@@ -51,10 +37,10 @@ const logger = winston.createLogger({
         }),
     ],
 });
-
-module.exports = logger;
-module.exports.stream = {
+const stream = {
     write: function (message, encoding) {
-        logger.info(message);
+        logger.info('▶ ' + message);
     },
 };
+
+module.exports = { logger, stream };

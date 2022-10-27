@@ -1,33 +1,31 @@
 'use strict';
 const { Model } = require('sequelize');
 module.exports = (sequelize, DataTypes) => {
-    class user extends Model {
+    class comment extends Model {
         static associate(models) {
-            models.user.hasMany(models.talk, { foreignKey: 'userNum' });
+            models.comment.belongsTo(models.board, { foreignKey: 'boardNum' });
         }
     }
-    user.init(
+    comment.init(
         {
-            userNum: {
+            commentNum: {
                 primaryKey: true,
                 autoIncrement: true,
                 type: DataTypes.INTEGER(8),
                 comment: '유저번호',
             },
-            id: {
-                allowNull: false,
-                type: DataTypes.STRING(30),
-                comment: '유저아이디',
+            boardNum: {
+                type: DataTypes.INTEGER(8),
+                comment: '게시글번호',
             },
-            password: {
-                allowNull: false,
-                type: DataTypes.STRING(500),
-                comment: '비밀번호',
+            userNum: {
+                type: DataTypes.INTEGER(8),
+                comment: '유저번호',
             },
-            nickname: {
+            content: {
                 allowNull: false,
-                type: DataTypes.STRING(20),
-                comment: '별칭',
+                type: DataTypes.TEXT,
+                comment: '내용',
             },
             status: {
                 allowNull: false,
@@ -37,11 +35,11 @@ module.exports = (sequelize, DataTypes) => {
             },
         },
         {
-            comment: '유저',
+            comment: '댓글',
             sequelize,
-            modelName: 'user',
+            modelName: 'comment',
             freezeTableName: true, // 테이블명 복수형으로 만들지않기
         },
     );
-    return user;
+    return comment;
 };

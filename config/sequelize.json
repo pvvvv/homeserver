@@ -2,7 +2,7 @@
   "development": {
       "username": "wonwoo",
       "password": "wwpark3015!",
-      "database": "test1",
+      "database": "hwuse",
       "host": "127.0.0.1",
       "dialect": "mysql"
   }

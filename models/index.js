@@ -6,7 +6,6 @@ const env = process.env.NODE_ENV || 'development';
 const config = require(__dirname + '/../config/sequelize.json')[env];
 const db = {};
 const moment = require('moment');
-const logger = require('../config/logger');
 
 let sequelize;
 config.timezone = '+09:00';
@@ -14,7 +13,7 @@ config.dialectOptions = {
     typeCast: function (field, next) {
         // for reading from database
         if (field.type === 'DATETIME') {
-            return moment(field.string()).format('YYYY-MM-DD HH:mm:ss');
+            return moment(field.string()).format('YYYY-MM-DD HH:mm:ss:SSS');
         } else if (field.type === 'DATE') {
             return moment(field.string()).format('YYYY-MM-DD');
         }
